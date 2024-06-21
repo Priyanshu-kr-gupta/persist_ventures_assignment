@@ -1,0 +1,11 @@
+.pagination::-webkit-scrollbar{
+    height: 0px;
+
+}
+.newsContainer::-webkit-scrollbar{
+    width: 2px;
+}
+.newsContainer{
+    scroll-snap-type: y mandatory;
+    
+}

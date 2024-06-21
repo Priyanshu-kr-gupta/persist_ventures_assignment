@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.srh{
+    animation: slideUp 0.2s ease-out forwards;
+    opacity: 0;
+    z-index: 2;
+  }
+  .pagination::-webkit-scrollbar{
+    height: 0px;
+
+}
+.newsContainer::-webkit-scrollbar{
+    width: 2px;
+}
+.newsContainer{
+    scroll-snap-type: y mandatory;
+    
+}
+  @keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
